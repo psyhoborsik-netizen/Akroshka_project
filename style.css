@@ -1,0 +1,295 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+h1 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 150px;
+}
+
+.header>nav>ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #292F36;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.4px;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #CDA274;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo>img {
+    width: 34px;
+    height: 34px;
+}
+
+.hero {
+    height: 831px;
+    background-image: url(src/images/backgroundRoom.webp) ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.hero>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero>div>h2 {
+    margin-bottom: 50px;
+    max-width: 700px;
+    flex-wrap: wrap;
+    margin-left: 150px;
+    font-size: 80px;
+    margin-top: 200px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hero>div>p {
+    max-width: 550px;
+    font-size: 22px;
+    margin-left: 150px;
+    flex-wrap: wrap;
+    margin-top: -35px;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.btn-1>button {
+    width: 207px;
+    height: 71px;
+    border: 0;
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 20px;
+    margin-left: 150px;
+    margin-top: 15px;
+    cursor: pointer;
+    box-shadow: 0 6px 12px rgba(5,15,15,15.3);
+    transition: background-color 0.5s ease;
+}
+
+.btn-1>button:hover {
+    background-color: #292F36;
+}
+
+.btn-1>button {
+    text-align: left;
+    padding-left: 30px;
+    font-size: 18px;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.btn-1>img {
+    margin-left: -60px;
+}
+
+.Services {
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Services-div {
+    height: 395px;
+    width: 317px;
+    text-align: center;
+}
+
+.Services-div>p {
+    font-size: 22px;
+    flex-wrap: wrap;
+    line-height: 33px;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Services-div>h3 {
+    font-size: 25px;
+    line-height: 39px;
+    margin-top: 100px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.more {
+    display: flex;
+    height: 47px;
+    background-color: #FFFFFF;
+    border: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.more>img {
+    width: 24px;
+    height: 17px;
+}
+
+.more>button {
+    background-color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.more>button>p {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 0.36px;
+    line-height: 27px;
+}
+
+
+.Estimating-div {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 480px;
+}
+
+.Estimating-info>h2 {
+    font-size: 50px;
+    letter-spacing: 0.22px;
+    line-height: 65px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Estimating-info>p {
+    font-size: 22px;
+    letter-spacing: 0.22px;
+    line-height: 33px;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Estimating-info {
+    width: 592px;
+    height: 581px;
+}
+
+.Estimating {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.Estimating>img {
+    width: 592px;
+    height: 635px;
+    margin-left: 100px;
+}
+
+.consultations {
+    display: flex;
+    align-items: center;
+}
+
+.consultations>img {
+    width: 93px;
+    height: 93px;
+}
+
+.Phone {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.Phone>p {
+    font-size: 24px;
+    letter-spacing: 0.22px;
+    line-height: 36px;
+    margin-bottom: 0;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Phone>span {
+    font-size: 22px;
+    letter-spacing: 0.22px;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.btn-2>button {
+    width: 267px;
+    height: 71px;
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 20px;
+    margin-top: 50px;
+    cursor: pointer;
+    box-shadow: 0 6px 12px rgba(5,15,15,15.3);
+    transition: background-color 0.5s ease;
+    font-size: 18px;
+    letter-spacing: 0.72px;
+    line-height: 27px;
+    margin-right: 60px;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.btn-2>img {
+    margin-left: -120px;
+}
+
+.btn-2>button:hover {
+    background-color: #292F36;
+}
+
