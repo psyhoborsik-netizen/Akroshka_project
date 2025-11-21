@@ -1,295 +1,177 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  color: #292F36;
+  background: #FFFFFF;
+  line-height: 1.5;
 }
 
-h1 {
-    font-family: "DM Serif Display", serif;
-    font-weight: 400;
-    font-style: normal;
+img {
+  max-width: 100%;
+  display: block;
+  border-radius: 20px;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 150px;
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+  font-size: 22px;
+  font-weight: 600;
+  border-bottom: 1px solid #e6e1e1;
 }
 
-.header>nav>ul {
-    display: flex;
-    gap: 50px;
-    list-style: none;
+.site {
+  width: 85%;
+  margin: 0 auto;
 }
 
-a {
-    text-decoration: none;
-    color: #292F36;
-    font-size: 20px;
-    line-height: 30px;
-    letter-spacing: 0.4px;
-    font-family: "Jost", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    cursor: pointer;
-    transition: color 0.3s ease;
+.stats {
+  margin: 80px 0;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
 }
 
-a:hover {
-    color: #CDA274;
+.stat h3 {
+  font-size: 48px;
+  font-family: 'Playfair Display', serif;
 }
 
-.logo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+.stat p {
+  font-size: 18px;
+  color: #4F4F4F;
 }
 
-.logo>img {
-    width: 34px;
-    height: 34px;
+.section h2 {
+  font-size: 48px;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 12px;
+  text-align: center;
 }
 
-.hero {
-    height: 831px;
-    background-image: url(src/images/backgroundRoom.webp) ;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+.lead {
+  text-align: center;
+  font-size: 18px;
+  color: #4F4F4F;
+  max-width: 600px;
+  margin: 0 auto 50px;
 }
 
-.hero>div {
-    display: flex;
-    flex-direction: column;
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
 }
 
-.hero>div>h2 {
-    margin-bottom: 50px;
-    max-width: 700px;
-    flex-wrap: wrap;
-    margin-left: 150px;
-    font-size: 80px;
-    margin-top: 200px;
-    font-family: "DM Serif Display", serif;
-    font-weight: 400;
-    font-style: normal;
+.card {
+  padding: 15px;
+  border-radius: 20px;
+  border: 1px solid #eee9e9;
+  transition: 0.3s ease;
+  background: #FFFFFF;
 }
 
-.hero>div>p {
-    max-width: 550px;
-    font-size: 22px;
-    margin-left: 150px;
-    flex-wrap: wrap;
-    margin-top: -35px;
-    font-family: "Jost", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 }
 
-.btn-1>button {
-    width: 207px;
-    height: 71px;
-    border: 0;
-    background-color: #000000;
-    color: #FFFFFF;
-    border-radius: 20px;
-    margin-left: 150px;
-    margin-top: 15px;
-    cursor: pointer;
-    box-shadow: 0 6px 12px rgba(5,15,15,15.3);
-    transition: background-color 0.5s ease;
+.thumb {
+  position: relative;
 }
 
-.btn-1>button:hover {
-    background-color: #292F36;
+.tag {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  background: #FFFFFF;
+  padding: 8px 16px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #292F36;
 }
 
-.btn-1>button {
-    text-align: left;
-    padding-left: 30px;
-    font-size: 18px;
-    font-family: "Jost", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+.card h3 {
+  margin: 15px 0;
+  font-size: 22px;
+  font-family: 'Playfair Display', serif;
+  line-height: 1.3;
 }
 
-.btn-1>img {
-    margin-left: -60px;
+.meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  color: #4F4F4F;
 }
 
-.Services {
-    height: 600px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+.cta {
+  margin: 100px 0;
+  background: #F4F0EC;
+  padding: 80px;
+  border-radius: 40px;
+  text-align: center;
 }
 
-.Services-div {
-    height: 395px;
-    width: 317px;
-    text-align: center;
+.cta h3 {
+  font-size: 42px;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 15px;
 }
 
-.Services-div>p {
-    font-size: 22px;
-    flex-wrap: wrap;
-    line-height: 33px;
-    font-family: "Jost", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+.cta p {
+  font-size: 18px;
+  color: #4F4F4F;
+  margin-bottom: 25px;
 }
 
-.Services-div>h3 {
-    font-size: 25px;
-    line-height: 39px;
-    margin-top: 100px;
-    font-family: "DM Serif Display", serif;
-    font-weight: 400;
-    font-style: normal;
+.btn {
+  display: inline-block;
+  background: #292F36;
+  color: #FFFFFF;
+  padding: 14px 30px;
+  border-radius: 12px;
+  font-size: 18px;
+  text-decoration: none;
+  transition: 0.3s;
 }
 
-.more {
-    display: flex;
-    height: 47px;
-    background-color: #FFFFFF;
-    border: none;
-    align-items: center;
-    justify-content: center;
+.btn:hover {
+  opacity: 0.85;
 }
 
-.more>img {
-    width: 24px;
-    height: 17px;
+footer {
+  padding: 80px 0;
+  border-top: 1px solid #E7E7E7;
 }
 
-.more>button {
-    background-color: #FFFFFF;
-    border: none;
-    cursor: pointer;
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
 }
 
-.more>button>p {
-    font-family: "Jost", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-    letter-spacing: 0.36px;
-    line-height: 27px;
+footer h4 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-family: 'Playfair Display', serif;
 }
 
-
-.Estimating-div {
-    display: flex;
-    flex-direction: column;
-    width: 600px;
-    height: 480px;
+footer p, footer li, footer address {
+  color: #4F4F4F;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
-.Estimating-info>h2 {
-    font-size: 50px;
-    letter-spacing: 0.22px;
-    line-height: 65px;
-    font-family: "DM Serif Display", serif;
-    font-weight: 400;
-    font-style: normal;
+footer li {
+  margin-bottom: 6px;
 }
-
-.Estimating-info>p {
-    font-size: 22px;
-    letter-spacing: 0.22px;
-    line-height: 33px;
-    font-family: "Jost", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.Estimating-info {
-    width: 592px;
-    height: 581px;
-}
-
-.Estimating {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
-}
-
-.Estimating>img {
-    width: 592px;
-    height: 635px;
-    margin-left: 100px;
-}
-
-.consultations {
-    display: flex;
-    align-items: center;
-}
-
-.consultations>img {
-    width: 93px;
-    height: 93px;
-}
-
-.Phone {
-    display: flex;
-    flex-direction: column;
-    margin-left: 20px;
-    margin-bottom: 40px;
-}
-
-.Phone>p {
-    font-size: 24px;
-    letter-spacing: 0.22px;
-    line-height: 36px;
-    margin-bottom: 0;
-    font-family: "Jost", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.Phone>span {
-    font-size: 22px;
-    letter-spacing: 0.22px;
-    font-family: "Jost", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.btn-2>button {
-    width: 267px;
-    height: 71px;
-    background-color: #000000;
-    color: #FFFFFF;
-    border-radius: 20px;
-    margin-top: 50px;
-    cursor: pointer;
-    box-shadow: 0 6px 12px rgba(5,15,15,15.3);
-    transition: background-color 0.5s ease;
-    font-size: 18px;
-    letter-spacing: 0.72px;
-    line-height: 27px;
-    margin-right: 60px;
-    font-family: "Jost", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    text-align: left;
-    padding-left: 30px;
-}
-
-.btn-2>img {
-    margin-left: -120px;
-}
-
-.btn-2>button:hover {
-    background-color: #292F36;
-}
-
