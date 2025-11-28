@@ -481,27 +481,10 @@ a:hover {
     padding: 0 1.5rem;
 }
 
-.header {
-    background-color: #2d3748;
-    color: white;
-    padding: 1rem 1.5rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
-.menu-btn {
-    background: none;
-    border: none;
-    color: white;
-    font-size: 1.5rem;
-    cursor: pointer;
-}
 
-.logo {
-    font-size: 1.25rem;
-    font-weight: 600;
-}
+
+
 
 .spacer {
     width: 1.5rem;
