@@ -48,7 +48,7 @@ a:hover {
 }
 
 .logo>img {
-    width: 34px;
+    max-width: 34px;
     height: 34px;
 }
 
@@ -89,7 +89,7 @@ a:hover {
 }
 
 .btn-1>button {
-    width: 207px;
+    max-width: 207px;
     height: 71px;
     border: 0;
     background-color: #000000;
@@ -104,7 +104,6 @@ a:hover {
 
 .btn-1>button:hover {
     background-color: #292F36;
-    
 }
 
 .btn-1>button {
@@ -130,7 +129,7 @@ a:hover {
 
 .Services-div {
     height: 395px;
-    width: 317px;
+    max-width: 317px;
     text-align: center;
 }
 
@@ -168,7 +167,7 @@ a:hover {
 }
 
 .more>img {
-    width: 24px;
+    max-width: 24px;
     height: 17px;
 }
 
@@ -192,7 +191,7 @@ a:hover {
 .Estimating-div {
     display: flex;
     flex-direction: column;
-    width: 400px;
+    max-width: 400px;
     height: 480px;
 }
 
@@ -216,7 +215,7 @@ a:hover {
 }
 
 .Estimating-info {
-    width: 592px;
+    max-width: 592px;
     height: 581px;
 }
 
@@ -227,7 +226,7 @@ a:hover {
 }
 
 .Estimating>img {
-    width: 592px;
+    max-width: 592px;
     height: 635px;
     margin-left: 100px;
 }
@@ -238,7 +237,7 @@ a:hover {
 }
 
 .consultations>img {
-    width: 93px;
+    max-width: 93px;
     height: 93px;
 }
 
@@ -270,7 +269,7 @@ a:hover {
 }
 
 .btn-2>button {
-    width: 267px;
+    max-width: 267px;
     height: 71px;
     background-color: #000000;
     color: #FFFFFF;
@@ -300,7 +299,7 @@ a:hover {
 }
 
 .rew-background {
-    width: 80%;
+    max-width: 80%;
     height: 785px;
     border-radius: 75px;
     background-color: #F4F0EC;
@@ -339,7 +338,7 @@ a:hover {
 }
 
 .rew-div {
-    width: 356px;
+    max-width: 356px;
     height: 259px;
     background-color: #FFFFFF;
     border-radius: 30px;
@@ -370,7 +369,7 @@ a:hover {
 .rew-worker {
     display: flex;
     align-items: center;
-    width: 500px;
+    max-width: 500px;
 }
 
 .rew-worker>div>p {
@@ -404,7 +403,7 @@ a:hover {
 }
 
 .brand-logos {
-    width: 80%;
+    max-width: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -420,7 +419,7 @@ a:hover {
 }
 
 .projects>h2 {
-    width: 330px;
+    max-width: 330px;
     font-size: 47px;
     line-height: 62.4px;
     letter-spacing: 0.22px;
@@ -429,7 +428,7 @@ a:hover {
 }
 
 .projects>p {
-    width: 750px;
+    max-width: 750px;
     font-size: 22px;
     line-height: 33px;
     letter-spacing: 0.22px;
@@ -444,7 +443,7 @@ a:hover {
 }
 
 .project-div {
-    width: 590px;
+    max-width: 590px;
     height: 750px;
     margin-top: 50px;
 }
@@ -459,7 +458,6 @@ a:hover {
 .project-description>div {
     display: flex;
     flex-direction: column;
-    
 }
 
 .project-description>div>h3 {
@@ -477,7 +475,7 @@ a:hover {
 }
 
 .project-description>img {
-    width: 70px;
+    max-width: 70px;
     height: 70px;
     cursor: pointer;
     transition: 0.3s ease;
@@ -512,8 +510,8 @@ a:hover {
     
 }
 
-.exp-div,.exp-div-1,.exp-div-2 {
-    width: 275px;
+.exp-div,.exp-div-left,.exp-div-right{
+    max-width: 275px;
     height: 200px;
     display: flex;
     flex-direction: column;
@@ -527,12 +525,12 @@ a:hover {
     padding: 50px;
 }
 
-.exp-div-1{
+.exp-div-left{
     border-right: 1px #CDA274 solid;
     padding: 50px;
 }
 
-.exp-div-2{
+.exp-div-right{
     border-left: 1px #CDA274 solid;
     padding: 50px;
 }
@@ -549,7 +547,7 @@ a:hover {
     margin: 0;
 }
 
-.exp-div-1>h3{
+.exp-div-left>h3{
     font-size: 85px;
     line-height: 127.5px;
     letter-spacing: 1.7px;
@@ -561,7 +559,7 @@ a:hover {
     margin: 0;
 }
 
-.exp-div-2>h3{
+.exp-div-right>h3{
     font-size: 85px;
     line-height: 127.5px;
     letter-spacing: 1.7px;
@@ -584,7 +582,7 @@ a:hover {
     color: #4D5053;
 }
 
-.exp-div-1>p {
+.exp-div-left>p {
     font-size: 22px;
     line-height: 33px;
     letter-spacing: 0.22px;
@@ -595,7 +593,7 @@ a:hover {
     color: #4D5053;
 }
 
-.exp-div-2>p {
+.exp-div-right>p {
     font-size: 22px;
     line-height: 33px;
     letter-spacing: 0.22px;
@@ -619,7 +617,7 @@ a:hover {
 }
 
 .join-div>div {
-    width: 241px;
+    max-width: 241px;
     height: 71px;
     background-color: #CDA274;
     border-radius: 20px;
@@ -636,13 +634,12 @@ a:hover {
 }
 
 .join-div>div>img {
-    width: 24px;
+    max-width: 24px;
     height: 24px;
-    
 }
 
 .join-div>div>button {
-    width: 140px;
+    max-width: 140px;
     height: 27px;
     background-color: #CDA274;
     border: 0;
@@ -655,7 +652,6 @@ a:hover {
     font-weight: 400;
     font-style: normal;
 }
-
 
 .join {
     display: flex;
@@ -710,19 +706,19 @@ a:hover {
 .footer-div {
     display: flex;
     flex-direction: column;
-    width: 210px;
+    max-width: 210px;
 }
 
-.footer-div-1{
+.footer-div-left{
     display: flex;
     flex-direction: column;
-    width: 393px;
+    max-width: 393px;
 }
 
-.footer-div-2{
+.footer-div-right{
     display: flex;
     flex-direction: column;
-    width: 337px;
+    max-width: 337px;
 }
 
 .footer-div>p {
@@ -736,7 +732,7 @@ a:hover {
     color: #4D5053;   
 }
 
-.footer-div-1>p {
+.footer-div-left>p {
     font-size: 22px;
     line-height: 33px;
     letter-spacing: 0.22px;
@@ -747,7 +743,7 @@ a:hover {
     color: #4D5053;   
 }
 
-.footer-div-2>p {
+.footer-div-right>p {
     font-size: 22px;
     line-height: 33px;
     letter-spacing: 0.22px;
@@ -768,7 +764,7 @@ a:hover {
     font-style: normal;
 }
 
-.footer-div-1>h3 {
+.footer-div-left>h3 {
     font-size: 25px;
     line-height: 37.5px;
     letter-spacing: 0.22px;
@@ -778,7 +774,7 @@ a:hover {
     font-style: normal;
 }
 
-.footer-div-2>h3 {
+.footer-div-right>h3 {
     font-size: 25px;
     line-height: 37.5px;
     letter-spacing: 0.22px;
@@ -839,14 +835,12 @@ a:hover {
     margin: 0 auto;
 }
 
-
 .cards {
     margin-top: 100px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
 }
-
 
 .card {
     background: #ffffff;
@@ -859,12 +853,10 @@ a:hover {
     justify-content: flex-start;
 }
 
-
 .card img {
     width: 100%;
     margin-bottom: 12px;
 }
-
 
 .tag {
     display: inline-block;
@@ -881,7 +873,6 @@ a:hover {
     font-style: normal;
 }
 
-
 .title {
     font-size: 25px;
     line-height: 35px;
@@ -890,9 +881,7 @@ a:hover {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    
 }
-
 
 .bottom {
     display: flex;
@@ -911,9 +900,8 @@ a:hover {
     font-style: normal;
 }
 
-
 .bottom>img {
-    width: 48px;
+    max-width: 48px;
     height: 48px;
     background: #F4F0EC;
     box-sizing: border-box;
